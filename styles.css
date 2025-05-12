@@ -1,7 +1,5 @@
-/*
-Aquí comienza tu archivo CSS.
-Añade estilos a los elementos de la página HTML.
-*/
+
+/* Autor: Sebastián Terrazo */
 
 body {
     font-family: sans-serif;
@@ -34,6 +32,7 @@ form {
     display: flex;
     flex-direction: column;
     width: 300px;
+    margin: 0 auto; /* Centra el formulario horizontalmente */
 }
 
 label {
@@ -41,7 +40,9 @@ label {
 }
 
 input[type="text"],
-input[type="email"] {
+input[type="email"],
+input[type="number"],
+textarea {
     padding: 8px;
     margin-bottom: 10px;
 }
@@ -61,4 +62,18 @@ footer {
     padding: 1em 0;
     bottom: 0;
     width: 100%;
+}
+
+/* Nuevos estilos pedidos */
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: green;
+}
+
+.nombre {
+    font-weight: bold;
 }
